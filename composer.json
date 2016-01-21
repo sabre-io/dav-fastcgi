@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "Sabre\\DAV\\FastCGI" : "lib/"
+            "Sabre\\DAV\\FastCGI\\" : "lib/"
         }
     },
     "require-dev": {
