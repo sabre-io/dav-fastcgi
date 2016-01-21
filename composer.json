@@ -1,0 +1,40 @@
+{
+    "name": "sabre/dav-fastcgi",
+    "description": "High-performance sabre/dav, running as a FastCGI daemon",
+    "keywords": [
+        "sabre",
+        "webdav",
+        "fastcgi"
+    ],
+    "homepage": "http://sabre.io/dav/",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.5",
+        "phpfastcgi/fastcgi-daemon" : "^0.7",
+        "sabre/dav" : "~3.1"
+    },
+    "authors": [
+        {
+            "name": "Evert Pot",
+            "email": "me@evertpot.com",
+            "homepage": "http://evertpot.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "forum": "https://groups.google.com/group/sabredav-discuss",
+        "source": "https://github.com/fruux/sabre-dav-fastcgi"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Sabre\\DAV\\FastCGI" : "lib/"
+        }
+    },
+    "require-dev": {
+        "sabre/cs": "~0.0.5",
+        "phpunit/phpunit" : "*"
+    },
+    "config" : {
+        "bin-dir" : "bin/"
+    }
+}
