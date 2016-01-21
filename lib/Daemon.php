@@ -58,8 +58,6 @@ class Daemon {
             $body = $newBody;
         } 
 
-        var_dump($body);
-
         // Turning sabre into psr-7 response.
         $psr7Response = new ZendResponse(
             $body,
