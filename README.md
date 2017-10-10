@@ -19,7 +19,7 @@ Build status
 
 | branch | status |
 | ------ | ------ |
-| master | [![Build Status](https://travis-ci.org/fruux/sabre-dav-fastcgi.png?branch=master)](https://travis-ci.org/fruux/sabre-dav-fastcgi) |
+| master | [![Build Status](https://travis-ci.org/sabre-io/dav-fastcgi.png?branch=master)](https://travis-ci.org/sabre-io/dav-fastcgi) |
 
 
 Questions?
